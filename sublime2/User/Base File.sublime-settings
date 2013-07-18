@@ -1,0 +1,10 @@
+{
+  "color_scheme": "Packages/Color Scheme - Default/Wombat.tmtheme",
+  "vintage_start_in_command_mode": false,
+  "draw_white_space": "selection",
+  "match_brackets": true,
+  "match_brackets_content": true,
+  "match_brackets_square": true,
+  "match_brackets_braces": true,
+  "match_brackets_angle": true
+}

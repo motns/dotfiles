@@ -1,0 +1,13 @@
+{
+	"caret_style": "blink",
+	"color_scheme": "Packages/Color Scheme - Default/Wombat.tmtheme",
+	"ignored_packages":[],
+	"indent_guide_options": [ "draw_active" ],
+	"rulers": [ 80 ],
+	"highlight_modified_tabs": true,
+	"translate_tabs_to_spaces": true,
+	"tab_size": 2,
+  "trim_trailing_white_space_on_save": true,
+  "highlight_line": true,
+  "spell_check": false
+}
