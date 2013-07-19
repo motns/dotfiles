@@ -30,7 +30,7 @@ backup_file () {
 }
 
 link_files () {
-  if [ ! -h '$2' ]
+  if [ ! -h "$2" ]
   then
     ln -s "$1" "$2"
   fi
@@ -56,7 +56,7 @@ install_sublime_settings () {
   sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 2/Packages
   sublime_theme_dir="$sublime_dir/Color Scheme - Default"
 
-  if [ -d "$sublime_dir/User" ]
+  if [ -d "$sublime_dir/User" ] && [ ! -h "$sublime_dir/User" ]
   then
     backup_file "$sublime_dir/User"
   fi
