@@ -69,8 +69,16 @@ install_sublime_settings () {
   success "Copied Wombat theme file to $sublime_theme_dir"
 }
 
+install_font () {
+  font_dir=~/Library/Fonts
+  # Again, just overwrite
+  cp "$DOTFILES_ROOT/system/fonts/Menlo+Regular+for+Powerline.ttf" "$font_dir"
+  success "Copied Menlo Powerline font to $font_dir"
+}
+
 
 ################################################################################
 
 install_dotfiles
 install_sublime_settings
+install_font
