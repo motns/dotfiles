@@ -10,6 +10,9 @@ plugins=(git rvm osx rand-quote knife)
 source $ZSH/oh-my-zsh.sh
 export DISABLE_AUTO_UPDATE="true"
 
+# Fix for localisation issue with Ubuntu over SSH
+export LC_CTYPE="en_US.UTF-8"
+
 
 ################################################################################
 # Load rest of ZSH config
