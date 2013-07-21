@@ -9,5 +9,10 @@
 	"tab_size": 2,
   "trim_trailing_white_space_on_save": true,
   "highlight_line": true,
-  "spell_check": false
+  "spell_check": false,
+  "match_brackets": true,
+  "match_brackets_content": true,
+  "match_brackets_square": true,
+  "match_brackets_braces": true,
+  "match_brackets_angle": true
 }
