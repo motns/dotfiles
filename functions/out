@@ -1,0 +1,11 @@
+echo '# Removing cached SSH keys'
+ssh-add -D
+
+echo '# Removing persistent SSH connections'
+rm -f /tmp/ssh_mux_*
+
+echo '# Unmounting disk images'
+diskutil eject /Volumes/"Secrets"
+diskutil eject /Volumes/"Keychain"
+
+# TODO - make the above smarter, handling errors gracefully
