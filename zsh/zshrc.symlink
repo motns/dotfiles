@@ -13,6 +13,9 @@ export DISABLE_AUTO_UPDATE="true"
 # Fix for localisation issue with Ubuntu over SSH
 export LC_CTYPE="en_US.UTF-8"
 
+# Include Boxen environment
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
 
 ################################################################################
 # Load rest of ZSH config
@@ -54,7 +57,3 @@ do
 done
 
 unset config_files
-
-# Include Boxen support
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
-
