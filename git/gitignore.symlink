@@ -26,3 +26,7 @@ tmp
 # YARD artifacts
 .yardoc
 _yardoc
+
+# IntelliJ
+*.iml
+.idea

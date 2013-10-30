@@ -7,7 +7,7 @@
         interactive = auto
         status = auto
 [core]
-        excludesfile = /opt/boxen/config/git/gitignore
+	excludesfile = /Users/adamb/.gitignore
 [dude]
         interval = 30
 [alias]
