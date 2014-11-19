@@ -8,6 +8,7 @@
         status = auto
 [core]
 	excludesfile = /Users/adamb/.gitignore
+	autocrlf = input
 [dude]
         interval = 30
 [alias]
@@ -22,3 +23,7 @@ helper = /opt/boxen/bin/boxen-git-credential
 protocol = https
 [push]
 	default = simple
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
