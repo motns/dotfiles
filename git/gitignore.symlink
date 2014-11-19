@@ -30,3 +30,4 @@ _yardoc
 # IntelliJ
 *.iml
 .idea
+*-ide-plugin.xml
