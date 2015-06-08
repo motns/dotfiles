@@ -5,7 +5,7 @@ export DOTFILES=$HOME/.dotfiles
 export ZSH_THEME="agnoster"
 export DEFAULT_USER=$USER
 
-plugins=(git rvm osx rand-quote knife)
+plugins=(git osx rand-quote atom brew aws bower dirhistory docker encode64 lol sbt scala urltools vagrant web-search)
 
 source $ZSH/oh-my-zsh.sh
 export DISABLE_AUTO_UPDATE="true"
