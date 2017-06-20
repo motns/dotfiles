@@ -6,6 +6,8 @@ rm -f /tmp/ssh_mux_*
 
 echo '# Unmounting disk images'
 diskutil eject /Volumes/"Secrets"
+echo 'Waiting 5s...'
+sleep 5
 diskutil eject /Volumes/"Keychain"
 
 # TODO - make the above smarter, handling errors gracefully
