@@ -52,23 +52,6 @@ install_dotfiles () {
   done
 }
 
-install_sublime_settings () {
-  sublime_dir=~/Library/Application\ Support/Sublime\ Text\ 2/Packages
-  sublime_theme_dir="$sublime_dir/Color Scheme - Default"
-
-  if [ -d "$sublime_dir/User" ] && [ ! -h "$sublime_dir/User" ]
-  then
-    backup_file "$sublime_dir/User"
-  fi
-
-  link_files "$DOTFILES_ROOT/sublime2/User" "$sublime_dir/User"
-
-  # Theme
-  #    No need to back up - just overwrite
-  cp "$DOTFILES_ROOT/sublime2/color-scheme/Wombat.tmtheme" "$sublime_theme_dir/."
-  success "Copied Wombat theme file to $sublime_theme_dir"
-}
-
 install_font () {
   font_dir=~/Library/Fonts
   # Again, just overwrite
@@ -80,5 +63,4 @@ install_font () {
 ################################################################################
 
 install_dotfiles
-install_sublime_settings
 install_font
