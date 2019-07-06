@@ -30,3 +30,4 @@ _yardoc
 *.iml
 .idea
 *-ide-plugin.xml
+venv/*
