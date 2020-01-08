@@ -5,29 +5,39 @@ brew install fswatch
 brew install wget
 brew install htop
 brew cask install istat-menus
+brew cask install firefox-developer-edition
 brew cask install google-chrome
+brew cask install opera
+brew cask install keka
 
 # Base Dev tools
-brew install nvm
-brew install docker
-brew install terraform
-brew install packer
-brew cask install paw
+brew install git-extras
 brew cask install github-desktop
+brew cask install postman
+brew install miller
+
+# Devops tools
+brew install terraform@0.11
+brew install packer
+
+# Node development
+brew install nvm
+
+# Python development
+brew install pyenv
 
 # Go development
 brew install go --with-cc-common
 brew install glide
 
 # Scala development
-brew cask install java
+brew cask install corretto8
 brew install sbt
 brew install scala
 
 # DB tools
 brew cask install postico
-brew cask install pgadmin4
-brew cask install sequel-pro
+brew cask install tableplus
 
 # Local dev server
 brew cask install virtualbox
@@ -35,7 +45,7 @@ brew cask install vagrant
 
 # IDEs and code editors
 brew cask install sublime-text
-brew cask install atom
+brew cask install visual-studio-code
 brew cask install intellij-idea
 
 # Misc.
