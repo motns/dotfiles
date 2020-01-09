@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Needed for some of the formulas below
+brew tap homebrew/cask-versions
+
 # Essentials
 brew install fswatch
 brew install wget
@@ -12,7 +15,7 @@ brew cask install keka
 
 # Base Dev tools
 brew install git-extras
-brew cask install github-desktop
+brew cask install github
 brew cask install postman
 brew install miller
 
@@ -27,7 +30,7 @@ brew install nvm
 brew install pyenv
 
 # Go development
-brew install go --with-cc-common
+brew install go
 brew install glide
 
 # Scala development
