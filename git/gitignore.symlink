@@ -31,3 +31,6 @@ _yardoc
 .idea
 *-ide-plugin.xml
 venv/*
+
+# VS Code
+.vscode

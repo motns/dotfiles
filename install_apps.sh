@@ -4,24 +4,39 @@
 brew tap homebrew/cask-versions
 
 # Essentials
+bres install --cask iterm2
 brew install fswatch
 brew install wget
 brew install htop
-brew cask install istat-menus
-brew cask install firefox-developer-edition
-brew cask install google-chrome
-brew cask install opera
-brew cask install keka
+brew install --cask proton-mail
+brew install --cask istat-menus
+brew install --cask firefox@developer-edition
+brew install --cask google-chrome
+brew install --cask brave-browser
+brew install --cask keka
+brew install --cask yubico-authenticator
+brew install --cask microsoft-office
+
+# Security
+brew install reikey
+brew install blockblock
+brew install knockknock
+brew install ransomwhere
+brew install oversight
+
+# Network
+brew install --cask little-snitch
+brew install --cask nordvpn
+
+# Chat
+brew install --cask telegram
+brew install --cask whatsapp
 
 # Base Dev tools
 brew install git-extras
-brew cask install github
-brew cask install postman
+brew install --cask github
+brew install --cask postman
 brew install miller
-
-# Devops tools
-brew install terraform@0.11
-brew install packer
 
 # Node development
 brew install nvm
@@ -29,29 +44,27 @@ brew install nvm
 # Python development
 brew install pyenv
 
+# Terraform development
+brew install tfenv
+
 # Go development
 brew install go
 brew install glide
 
 # Scala development
-brew cask install corretto8
+brew install --cask corretto
 brew install sbt
 brew install scala
 
 # DB tools
-brew cask install postico
-brew cask install tableplus
-
-# Local dev server
-brew cask install virtualbox
-brew cask install vagrant
+brew install --cask postico
+brew install --cask tableplus
 
 # IDEs and code editors
-brew cask install sublime-text
-brew cask install visual-studio-code
-brew cask install intellij-idea
+brew install --cask visual-studio-code
+brew install --cask intellij-idea
 
 # Misc.
-brew cask install dropbox
-brew cask install spotify
-brew cask install viscosity
+#brew cask install dropbox
+brew install --cask spotify
+brew install --cask viscosity
