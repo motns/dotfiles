@@ -4,7 +4,7 @@
 brew tap homebrew/cask-versions
 
 # Essentials
-bres install --cask iterm2
+brew install --cask iterm2
 brew install fswatch
 brew install wget
 brew install htop
@@ -16,6 +16,7 @@ brew install --cask brave-browser
 brew install --cask keka
 brew install --cask yubico-authenticator
 brew install --cask microsoft-office
+brew install --cask disk-inventory-x
 
 # Security
 brew install reikey
@@ -31,6 +32,7 @@ brew install --cask nordvpn
 # Chat
 brew install --cask telegram
 brew install --cask whatsapp
+brew install --cask slack
 
 # Base Dev tools
 brew install git-extras
