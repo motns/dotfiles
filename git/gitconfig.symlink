@@ -1,6 +1,6 @@
 [user]
         name = Adam Borocz
-        email = boroczadam@gmail.com
+	email = github@motns.io
 [color]
         branch = auto
         diff = auto
@@ -29,6 +29,7 @@ protocol = https
 	smudge = git hawser smudge %f
 	required = true
 [filter "lfs"]
-	clean = git lfs clean %f
-	smudge = git lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 	required = true
+	process = git-lfs filter-process
