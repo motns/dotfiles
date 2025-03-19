@@ -65,6 +65,7 @@ brew install --cask tableplus
 # IDEs and code editors
 brew install --cask visual-studio-code
 brew install --cask intellij-idea
+brew install --cask dash
 
 # Misc.
 #brew cask install dropbox
