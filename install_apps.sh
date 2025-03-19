@@ -47,7 +47,7 @@ brew install nvm
 brew install pyenv
 
 # Terraform development
-brew install tfenv
+brew install tenv
 
 # Go development
 brew install go
