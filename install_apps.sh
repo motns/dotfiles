@@ -44,7 +44,7 @@ brew install miller
 brew install nvm
 
 # Python development
-brew install pyenv
+brew install uv
 
 # Terraform development
 brew install tenv
