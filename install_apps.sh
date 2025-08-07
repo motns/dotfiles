@@ -2,6 +2,7 @@
 
 # Needed for some of the formulas below
 brew tap homebrew/cask-versions
+brew tap sdkman/tap
 
 # Essentials
 brew install --cask iterm2
@@ -54,7 +55,7 @@ brew install go
 brew install glide
 
 # Scala development
-brew install --cask corretto
+brew install sdkman-cli
 brew install sbt
 brew install scala
 

@@ -17,9 +17,9 @@ export LC_CTYPE="en_US.UTF-8"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
-# Use Homebrew SSH
-#export PATH="/usr/local/opt/openssh:${PATH}"
-
+# Load SDKMan!
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 
 ################################################################################
 # Load rest of ZSH config
