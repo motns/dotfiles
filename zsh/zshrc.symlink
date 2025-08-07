@@ -5,7 +5,31 @@ export DOTFILES=$HOME/.dotfiles
 export ZSH_THEME="robbyrussell"
 export DEFAULT_USER=$USER
 
-plugins=(catimg git macos brew aws dirhistory docker encode64 lol sbt scala urltools web-search pyenv)
+plugins=(
+  1password
+  aws
+  brew
+  catimg
+  colored-man-pages
+  dirhistory
+  docker
+  encode64
+  git
+  gh
+  helm
+  isodate
+  kubectl
+  lol
+  macos
+  opentofu
+  sbt
+  scala
+  ssh
+  swiftpm
+  terraform
+  urltools
+  web-search
+)
 
 source $ZSH/oh-my-zsh.sh
 export DISABLE_AUTO_UPDATE="true"
