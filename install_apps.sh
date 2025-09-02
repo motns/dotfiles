@@ -9,6 +9,7 @@ brew install --cask iterm2
 brew install fswatch
 brew install wget
 brew install htop
+brew install tree
 brew install --cask proton-mail
 brew install --cask istat-menus
 brew install --cask firefox@developer-edition
